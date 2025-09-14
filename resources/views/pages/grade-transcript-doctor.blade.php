@@ -65,8 +65,8 @@
             <!-- Cột Grading Scale -->
             <div class="grading-scale">
                 <table>
-                    <thead class="gradient2">
-                        <tr>
+                    <thead class="gradient2 uppercase text-white">
+                        <tr">
                             <th>Precemage</th>
                             <th>Grade</th>
                             <th>ECTS</th>
@@ -114,7 +114,7 @@
             <h2 class=" text-yellow-400 font-bold">Fall 2025</h2>
             <div class="courses">
                 <table>
-                    <thead class="gradient2">
+                    <thead class="gradient2 uppercase text-white">
                         <tr>
                             <th>Code</th>
                             <th class="text-left">Course</th>
