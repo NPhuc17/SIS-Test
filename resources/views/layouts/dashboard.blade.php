@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <header class=" bg-green-500 flex h-[15vh] items-center pt-5">
+    <header class=" bg-green-700 flex h-[15vh] items-center pt-5">
         <div id="logo" class=" ml-5">
             <img src="{{ asset('images\logo.png') }}" alt="Logo" class="w-15 h-15">
 
@@ -95,7 +95,7 @@
 
     <div class=" flex">
         <!-- Sidebar -->
-        <div id="left" class="bg-green-500 px-7 text-white w-64 h-[85vh]">
+        <div id="left" class="bg-green-700 px-7 text-white w-64 h-[85vh]">
             <nav id="main_nav">
                 <ul class="">
                     <li>
@@ -133,14 +133,15 @@
                         </a>
                     </li>
 <!-- Đổi sang grade cho docotor. Nhớ comment cái trên, đổi route -->
-   {{-- 
+    {{-- 
                      <li>
                         <a href="{{ route('grade.transcript-doctor') }}" class="block  rounded 
                            {{ Route::is('grade.transcript-doctor') ? 'bg-orange-400' : 'hover:bg-green-600' }}">
                             Grade & Transcript
                         </a>
                     </li>
-                     --}}
+                    --}}
+                    
 
                     <li>
                         <a href="{{ route('attendance') }}" class="block  rounded 
