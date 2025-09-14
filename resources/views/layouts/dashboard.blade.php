@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <header class=" bg-green-700 flex h-[15vh] items-center pt-5">
+    <header class=" bg-green-800 flex h-[15vh] items-center pt-5">
         <div id="logo" class=" ml-5">
             <img src="{{ asset('images\logo.png') }}" alt="Logo" class="w-15 h-15">
 
@@ -95,34 +95,34 @@
 
     <div class=" flex">
         <!-- Sidebar -->
-        <div id="left" class="bg-green-700 text-white w-64 h-[85vh]">
+        <div id="left" class="bg-green-800 text-white w-64 h-[85vh]">
             <nav id="main_nav">
                 <ul class="">
-                    <li class="{{ Route::is('dashboard') ? 'text-green-400' : 'hover:bg-green-800' }}">
+                    <li class="{{ Route::is('dashboard') ? 'text-green-400' : 'li-style' }}">
                         <a href="{{ route('dashboard') }}" class="block px-4 py-2">
                             Dashboard
                         </a>
                     </li>
 
-                    <li class="{{ Route::is('academic') ? 'text-green-400' : 'hover:bg-green-800 hover:border-l-orange-400 hover:border-l-6' }}">
+                    <li class="{{ Route::is('academic') ? 'text-green-400' : 'li-style' }}">
                         <a href="{{ route('academic') }}" class="block px-4 py-2">
                             Academic
                         </a>
                     </li>
 
-                    <li class="{{ Route::is('course.schedule') ? 'text-green-400' : 'hover:bg-green-800 hover:border-l-orange-400 hover:border-l-6' }}">
+                    <li class="{{ Route::is('course.schedule') ? 'text-green-400' : ' li-style' }}">
                         <a href="{{ route('course.schedule') }}" class="block px-4 py-2">
                             Course Schedule
                         </a>
                     </li>
 
-                    <li class="{{ Route::is('exam.schedule') ? 'text-green-400' : 'hover:bg-green-800 hover:border-l-orange-400 hover:border-l-6' }}">
+                    <li class="{{ Route::is('exam.schedule') ? 'text-green-400' : 'li-style' }}">
                         <a href="{{ route('exam.schedule') }}" class="block px-4 py-2">
                             Exam Schedule
                         </a>
                     </li>
 
-                    <li class="{{ Route::is('grade.transcript') ? 'text-green-400' : 'hover:bg-green-800 hover:border-l-orange-400 hover:border-l-6' }}">
+                    <li class="{{ Route::is('grade.transcript') ? 'text-green-400' : 'li-style' }}">
                         <a href="{{ route('grade.transcript') }}" class="block px-4 py-2">
                             Grade & Transcript
                         </a>
@@ -130,14 +130,14 @@
 
                     {{-- Nếu muốn dùng route cho Doctor thì bật cái này và comment cái trên --}}
                     {{--
-                    <li class="{{ Route::is('grade.transcript-doctor') ? 'text-green-400' : 'hover:bg-green-800 hover:border-l-orange-400 hover:border-l-6' }}">
+                    <li class="{{ Route::is('grade.transcript-doctor') ? 'text-green-400' : 'li-style' }}">
                         <a href="{{ route('grade.transcript-doctor') }}" class="block px-4 py-2">
                             Grade & Transcript
                         </a>
                     </li>
                     --}}
 
-                    <li class="{{ Route::is('attendance') ? 'text-green-400' : 'hover:bg-green-800 hover:border-l-orange-400 hover:border-l-6' }}">
+                    <li class="{{ Route::is('attendance') ? 'text-green-400' : 'li-style' }}">
                         <a href="{{ route('attendance') }}" class="block px-4 py-2">
                             Attendance Tracker
                         </a>

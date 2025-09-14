@@ -13,7 +13,7 @@
 
 
 @utility gradient {
-    @apply bg-gradient-to-r from-green-400 to-green-700
+    @apply bg-gradient-to-r from-green-400 to-green-900
 }
 
 @utility gradient2 {
@@ -27,7 +27,9 @@
     #second_nav li {
         @apply py-3 px-7;
     }
-
+    .li-style{
+        @apply hover:bg-green-900 hover:border-l-orange-400 hover:border-l-6;
+    }
     .row1 {
         @apply grid gap-2.5 grid-cols-2;
     }
