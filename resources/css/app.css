@@ -25,7 +25,7 @@
 
     #main_nav li,
     #second_nav li {
-        @apply py-3;
+        @apply py-3 px-7;
     }
 
     .row1 {
